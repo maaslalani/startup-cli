@@ -13,7 +13,7 @@ $ npm install -g startup-cli
 Now, you can generate endless startup ideas with the `generate` command.
 ```bash
 $ startup-cli generate
-> Airbnb but for cars
+> Airbnb but with cars
 ```
 
 ## TODO
