@@ -16,8 +16,11 @@ $ startup-cli generate
 > Airbnb but with cars
 ```
 
-## TODO
+### TODO
 * Add startup name generator
 * Add more ideas and more audiences
 * Add feature to verify a startup idea already exists
 * Apply to YCombinator with one of these ideas
+
+### Contribute
+Additions to the module are always welcome! 🙌
