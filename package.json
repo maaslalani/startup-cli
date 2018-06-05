@@ -1,0 +1,21 @@
+{
+  "name": "startup-cli",
+  "version": "1.0.0",
+  "description": "A command-line interface to help you generate your next billion dollar idea.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node cli.js"
+  },
+  "bin": {
+    "startup-cli": "./cli.js"
+  },
+  "keywords": [
+    "startup"
+  ],
+  "author": "Maas Lalani",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
