@@ -13,6 +13,10 @@ switch (command) {
     generate()
     break
 
+  case 'help':
+    console.log('Usage: startup-cli generate')
+    break
+
   default:
     console.log('Invalid command syntax. Type \'help\' to see correct syntax.')
 
