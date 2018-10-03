@@ -4,12 +4,12 @@ const filesystem = require('fs')
 // read ideas list and store in an array
 let ideas = filesystem
               .readFileSync(`${__dirname}/../data/ideas.text`, 'utf-8')
-              .split('\r\n')
+              .split(/\r?\n/)
 
 // read audiences list and store in an array
 let audiences = filesystem
                   .readFileSync(`${__dirname}/../data/audiences.text`, 'utf-8')
-                  .split('\r\n')
+                  .split(/\r?\n/)
 
 // generate a startup
 function generate() {
