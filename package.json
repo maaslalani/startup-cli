@@ -15,6 +15,10 @@
   ],
   "author": "Maas Lalani",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maaslalani/startup-cli"
+  },
   "dependencies": {
     "fs": "0.0.1-security"
   }
